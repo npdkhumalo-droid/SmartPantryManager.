@@ -1,26 +1,23 @@
 package com.example.smartpantrymanager;
 
 import android.os.Bundle;
-
-import androidx.activity.EdgeToEdge;
+import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
-public class AddIngredientActivity extends AppCompatActivity {
+public class RecipeDetailActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable     (this);
-        setContentView(R.layout.activity_add_ingredient);
-        ViewCompat.setOnApplyWindowInsetsListener
-                (findViewById(R.id.main)
-                        , (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+        setContentView(R.layout.activity_recipe_detail);
+
+        TextView tvDetailName = findViewById(R.id.tvDetailName);
+        TextView tvIngredients = findViewById(R.id.tvIngredients);
+        TextView tvSteps = findViewById(R.id.tvSteps);
+
+        // Example dynamic content
+        tvDetailName.setText("Spaghetti Bolognese");
+        tvIngredients.setText("• Pasta\n• Minced beef\n• Tomato sauce");
+        tvSteps.setText("1. Boil pasta\n2. Cook beef\n3. Mix with sauce");
     }
 }
