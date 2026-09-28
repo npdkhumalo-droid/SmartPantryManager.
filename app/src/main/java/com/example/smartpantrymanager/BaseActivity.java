@@ -1,4 +1,4 @@
 package com.example.smartpantrymanager;
 
-public class AddIngredientActivity {
+public class BaseActivity {
 }

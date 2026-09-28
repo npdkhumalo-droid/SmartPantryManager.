@@ -24,7 +24,8 @@
         <activity
             android:name=".AddIngredientActivity"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="Instantiatable,MissingClass" />
         <activity
             android:name=".SuggestedRecipesActivity"
             android:exported="false"
@@ -36,7 +37,8 @@
         <activity
             android:name=".RecipeDetailActivity"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="Instantiatable" />
     </application>
 
 </manifest>

@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
-        android:text="Recipes You Can Make Now"
+        android:text="@string/recipes_title"
         android:textSize="22sp"
         android:textStyle="bold"/>
 
@@ -28,7 +28,7 @@
         android:layout_centerInParent="true"
         android:padding="24dp"
         android:gravity="center"
-        android:text="No recipes match your pantry yet - add more ingredients."
+        android:text="@string/no_recipes"
         android:visibility="gone"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

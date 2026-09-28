@@ -10,20 +10,14 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Settings"
-            android:textSize="22sp"
-            android:textStyle="bold"
-            tools:ignore="HardcodedText" />
 
-        <androidx.appcompat.widget.SwitchCompat
+    <androidx.appcompat.widget.SwitchCompat
             android:id="@+id/swAlerts"
+            android:paddingTop="24dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Expiring-soon alerts (highlight items expiring within 3 days)"
+            android:text="Expiry Alerts (highlight items expiring within 3 days)"
             tools:ignore="HardcodedText" />
     </LinearLayout>
 
@@ -32,5 +26,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        app:menu="@menu/bottom_nav_menu"/>
+        app:menu="@menu/bottom_nav_menu" />
 </RelativeLayout>

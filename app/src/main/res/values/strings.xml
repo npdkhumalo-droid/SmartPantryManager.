@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">SmartPantryManager</string>
+    <string name="my_pantry">MyPantry</string>
+    <string name="recipes_title">Recipes You Can Make Now </string>
+    <string name="no_recipes">No recipes match your pantry-add more ingredients.</string>
     <string name="add_ingredient">Add Ingredient</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="method">Method</string>
 </resources>
