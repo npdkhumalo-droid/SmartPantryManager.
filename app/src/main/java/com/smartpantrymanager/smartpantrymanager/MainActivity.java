@@ -13,14 +13,14 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.smartpantrymanager.R;
 import com.smartpantrymanager.adapters.PantryAdapter;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.smartpantrymanager.database.DbHelper;
+import com.smartpantrymanager.database.DBhelper;
 
 import java.util.List;
 
 /** Pantry List screen (READ + entry point for CREATE / UPDATE / DELETE). */
 public class MainActivity implements PantryAdapter.Listener {
 
-    private DbHelper db;
+    private DBhelper db;
     private PantryAdapter adapter;
     private TextView tvEmpty;
 
@@ -33,7 +33,7 @@ public class MainActivity implements PantryAdapter.Listener {
         PantryAdapter.Listener.super.clone(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        db = new DbHelper(this);
+        db = new DBhelper(this);
         tvEmpty = findViewById(R.id.tvEmpty);
 
         RecyclerView rv = findViewById(R.id.rvPantry);

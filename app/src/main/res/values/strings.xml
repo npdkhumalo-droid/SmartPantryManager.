@@ -13,5 +13,7 @@
     <string name="notifications">Notifications</string>
     <string name="dark_mode">Dark Mode</string>
     <string name="suggested_recipes">Suggested Recipes</string>
+    <string name="recipe">Suggested Recipes</string>
+    <string name="omlette_png">omlette.png</string>
 
 </resources>

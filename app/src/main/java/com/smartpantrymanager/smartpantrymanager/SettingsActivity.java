@@ -11,8 +11,6 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class SettingsActivity extends AppCompatActivity {
 
-    private static final android.R.attr R = ;
-
     @SuppressLint("ResourceType")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +20,7 @@ public class SettingsActivity extends AppCompatActivity {
         setContentView(android.R.attr.layout);
 
         ViewCompat.setOnApplyWindowInsetsListener(
-                findViewById(android.R.attr.id),
+                findViewById(16842960),
                 (v, insets) -> {
                     Insets systemBars =
                             insets.getInsets(WindowInsetsCompat.Type.systemBars());

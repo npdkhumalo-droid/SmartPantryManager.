@@ -18,7 +18,7 @@ import java.util.List;
 public class RecipeAdapter
         extends RecyclerView.Adapter<RecipeAdapter.ViewHolder> {
 
-    private List<Recipe> recipe;
+    private final List<Recipe> recipe;
 
     public RecipeAdapter(List<Recipe> recipes) {
         this.recipe = recipes;
@@ -33,7 +33,7 @@ public class RecipeAdapter
         View view = LayoutInflater.from(
                         parent.getContext())
                 .inflate(
-                        R.layout.item_pantry,
+                        R.layout.recipeitem,
                         parent,
                         false);
 
