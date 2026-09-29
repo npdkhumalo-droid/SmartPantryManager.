@@ -1,4 +1,4 @@
-package com.example.smartpantrymanager;
+package com.smartpantrymanager.smartpantrymanager;
 
 import android.content.Context;
 

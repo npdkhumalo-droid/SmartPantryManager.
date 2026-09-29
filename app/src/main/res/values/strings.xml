@@ -6,4 +6,12 @@
     <string name="add_ingredient">Add Ingredient</string>
     <string name="ingredients">Ingredients</string>
     <string name="method">Method</string>
+    <string name="delete">Delete</string>
+    <string name="smart_pantry_manager">Smart Pantry Manager</string>
+    <string name="todo">TODO</string>
+    <string name="ingredient_name">Ingredient Name</string>
+    <string name="notifications">Notifications</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="suggested_recipes">Suggested Recipes</string>
+
 </resources>
